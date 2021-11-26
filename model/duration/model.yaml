@@ -1,0 +1,15 @@
+has_dynamic_features:
+- false
+netG:
+  class: nnsvs.model.LSTMRNN
+  params:
+    bidirectional: true
+    dropout: 0.5
+    hidden_dim: 64
+    in_dim: 445
+    num_layers: 2
+    out_dim: 1
+stream_sizes:
+- 1
+stream_weights:
+- 1

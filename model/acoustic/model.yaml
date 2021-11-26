@@ -1,0 +1,20 @@
+has_dynamic_features:
+- true
+- true
+- false
+- true
+netG:
+  class: nnsvs.model.Conv1dResnet
+  params:
+    dropout: 0.1
+    hidden_dim: 128
+    in_dim: 449
+    num_layers: 6
+    out_dim: 199
+num_windows: 3
+stream_sizes:
+- 180
+- 3
+- 1
+- 15
+stream_weights: null
