@@ -1,6 +1,6 @@
 # 基于神经网络的歌声合成Demo 
 - 详情请参考博客文章:https://errol.blog.csdn.net/article/details/121532637
-
+- [歌声合成视频课程地址](https://edu.csdn.net/course/detail/31938)
 1. 语言：日语
 2. 数据集：[kiritan_singing database](https://zunko.jp/kiridev/login.php)
 3. 输入musicxml file,输出音频。
